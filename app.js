@@ -8,5 +8,5 @@ app.listen(3020, ()=>{
 });
 
 app.get('/', (req,res)=>{
-    res.send('Hello Word');
+    res.sendFile(__dirname + '/views/home.html');
 });
