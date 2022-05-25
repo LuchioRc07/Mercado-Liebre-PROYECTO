@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="/css/styles.css">
     <title>Document</title>
 </head>
-<body class="">
+<body>
     <header>
         <div>
-            <section>
+            <section class="logo">
             <img src="/images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre" class="logo">
             </section>
-            <section><link rel="stylesheet" href="<i class="fa-solid fa-magnifying-glass">
-                <p>Lugar para barra de busqueda</p>
-                <p>Compra en cuotas y sin tarjeta de credito</p>
+            <section>
+                <link rel="stylesheet" href="<i class="fa-solid fa-magnifying-glass">
+                <div class="form" action="#" method="GET">
+                <div class="input" class="barra">Buscar</div>
+                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+                </div>
             </section>
         </div>    
-        <div>
+        <nav>
             <ul>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
@@ -29,13 +32,19 @@
                 <li><a href="#">Ingresá</a></li>
                 <li><a href="#">Mis compras</a></li>
             </ul>
+        </nav>
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
         </div>
     </header>
+    <section class="banner">
+        <img src="images/img-home-banner.jpg" alt="Banner de ofertas">
+    </section>
     <main>
-        <section>
+        <section class="visitas">
             <div><h2>Basado en tu última visita</h2></div>
             <div>
-            <article>
+            <article class="article">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera" class="cafeimg">
                     <div>
                     <p>$6.770</p>
@@ -44,7 +53,7 @@
                     </article>
             </div>
             <div>
-            <article>   
+            <article class="article">   
              <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook">
                 <p>$230.000</p>
                 <p>20% off</p>
@@ -52,7 +61,7 @@
                 </article>
             </div>                
             <div>
-            <article>         
+            <article class="article">         
              <img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy">
                 <p>$70.500</p> 
                 <p>10% off</p> 
@@ -60,7 +69,7 @@
              </article>
             </div>      
            <div>
-               <article>
+               <article class="article">
                 <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv">
                 <p>$23.200</p>  
                 <p>5% off</p>  
@@ -68,28 +77,32 @@
               </article>
             </div>
         </section>
-        <section>
+        <section class="ofertas">
             <div><h2>Ofertas</h2></div>
-            <div><article>
+            <div>
+                <article class="article">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera" class="cafeimg">
                     <div>
                     <p>$6.770</p>
                     <p>40% OFF</p>
                     <p>Cafetera Moulinex</p>
                     </article></div>
-            <div><article>   
+            <div>
+                <article class="article">   
                 <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook">
                    <p>$230.000</p>
                    <p>20% off</p>
                    <p>MacBook Pro 2019</p>
                    </article></div>
-            <div><article>         
+            <div>
+                <article class="article">         
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy">
                    <p>$70.500</p> 
                    <p>10% off</p> 
                    <p>Samsung Galaxy S10</p>
                 </article></div>
-            <div><article>
+            <div>
+                <article class="article">
                 <img src="/images/img-tv-samsung-smart.jpg" alt="SmartTv">
                 <p>$23.200</p>  
                 <p>5% off</p>  
