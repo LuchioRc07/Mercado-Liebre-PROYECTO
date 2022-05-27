@@ -13,6 +13,7 @@ h3{
     font-size: 24px;
 }
 
+
 p{
     font-size: 12px;
 }
@@ -114,7 +115,7 @@ div.offers{
 
 h3,
 .description{
-    color: #666;
+    color: rgb(32, 9, 210);
 }
 
 .description{
@@ -179,6 +180,39 @@ main section article:hover .description{
 
 }
 
+footer{
+    text-align: center;
+    margin: 15px;
+}
+footer h3{
+    font-size: 10px;
+}
+footer i{
+    font-size: 24px;
+
+}
+
+
+
+.fa-truck:hover{
+  transform: rotate(-90deg);
+  transition: 300ms;
+}
+
+.enviar:hover{
+    background-color: #0022AA
+
+}
+.enviar{
+     transition: all 200ms;
+}
+
+.fa-credit-card{
+    font-size: 50px;
+}
+
+
+
 
 @media (min-width: 361px){
     main section article .description{
@@ -213,25 +247,3 @@ main section article:hover .description{
         width: 22%;
     }
 }
-
-.fa-truck:hover{
-  transform: rotate(-90deg);
-  transition: 300ms;
-}
-
-.enviar:hover{
-    background-color: #0022AA
-
-}
-.enviar{
-     transition: all 200ms;
-}
-
-.fa-credit-card{
-    font-size: 50px;
-}
-
-
-
-
-
