@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
-app.use(express.static('public'));
+const port = process.env.PORT || 3030;
 
 
-app.listen(3030, ()=>{
+app.listen(port, ()=>{
     console.log('Servidor funcionando');
 });
+
+app.use(express.static('public'));
 
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
@@ -18,3 +20,4 @@ app.get('/login', (req,res)=>{
 app.get('/register', (req,res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
+
