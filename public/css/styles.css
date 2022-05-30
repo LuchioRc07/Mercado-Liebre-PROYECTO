@@ -116,27 +116,12 @@ div.burger-menu i {
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
-    /*cursor: pointer;*/
+    cursor: pointer;
 }
 nav div.burger-menu{
     text-align: center;
     position: relative;    
 }
-
-.menu .submenu{
-    
-}
-.menu div.burguer-menu :hover .submenu{
-    visibility: visible;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -189,8 +174,13 @@ main section article i{
     transform: rotate(-90deg);
     transition: 300ms;
   }
-.enviar:hover{
-    background-color: #0022AA
+
+  .enviar:hover{
+    background-color: #0022AA;
+    opacity: 95%;
+    transition: 0.5s;
+    
+
 
 }
 main section h3{
@@ -221,6 +211,16 @@ footer{
 footer .pie i{
     font-size: 25px;
     color: #0022AA;
+}
+
+main{
+    flex-wrap: wrap;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+main input{
+    font-size: 20px;
 }
 
 
