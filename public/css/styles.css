@@ -125,13 +125,11 @@ nav div.burger-menu{
 
 
 
-
-
-
 section.last-visit,
 section.offers{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 h3,
@@ -141,9 +139,11 @@ h3,
 section.banner img{
     width: 100%;
 }
+
 main{
-    width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
+    
+ 
 }
 main section article{
     background-color: #fff;    
