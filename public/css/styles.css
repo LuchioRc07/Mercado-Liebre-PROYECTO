@@ -58,17 +58,7 @@ header .form{
     padding: 2px;
     font-size: 11px;
 }
-header nav{
-    font-size: 12px;
-    margin-left: 20px;
-}
-header ul li{
-    list-style-type: none;
-}
-header ul li a{
-    text-decoration: none;
-    color: #000;
-}
+
 header .input{
     background-color: #FFF;
     border: 1px solid rgb(200, 200, 200);
@@ -99,11 +89,25 @@ header p {
     max-height: 90%;
 }
 
-div.burger-menu{
-    text-align: center;
-    cursor: pointer;
+
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+    position: relative;
 }
-div.burger-menu i{
+header ul li{
+    list-style-type: none;
+    display: inline-block; 
+    margin: 0px 4% 0px 4%;   
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+div.burger-menu i {
     background-color: #0044AA;
     border-radius: 5px;
     color: #FFF;
@@ -112,14 +116,30 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
-
+    /*cursor: pointer;*/
 }
-.navegation.fa-bars:hover{
-    width: 100%;
-    margin: 30px auto;
-    background-color: rgb(17, 157, 33);
+nav div.burger-menu{
+    text-align: center;
+    position: relative;    
+}
+
+.menu .submenu{
+    
+}
+.menu div.burguer-menu :hover .submenu{
     visibility: visible;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
