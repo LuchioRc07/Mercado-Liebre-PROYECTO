@@ -112,7 +112,16 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
+
 }
+.navegation.fa-bars:hover{
+    width: 100%;
+    margin: 30px auto;
+    background-color: rgb(17, 157, 33);
+    visibility: visible;
+}
+
+
 
 section.last-visit,
 section.offers{
