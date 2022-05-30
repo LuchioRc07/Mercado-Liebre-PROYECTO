@@ -179,10 +179,19 @@ main section article i{
     background-color: #0022AA;
     opacity: 95%;
     transition: 0.5s;
-    
-
-
 }
+
+.archi:hover{
+    background-color: #0022AA;
+    opacity: 95%;
+    transition: 0.5s;
+}
+
+.archivus{
+    margin: 40px;
+    background-color: tomato;
+}
+
 main section h3{
     margin: 20px 0px;
 }
