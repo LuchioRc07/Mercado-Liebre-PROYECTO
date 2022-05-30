@@ -170,6 +170,58 @@ main section article i{
     right: 20px;
     top: -15px;
 }
+
+.login{
+    margin: auto;
+    text-align: center;
+    padding: 10%;
+    background-color:rgb(255 237 0 / 26%)
+}   
+.register{ 
+    padding: 30px;
+    background: rgb(255 237 0 / 26%);
+    margin: auto;
+}
+.register h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}   
+.register .archivo {
+    margin-bottom: 10px;
+}   
+.register h5{
+        text-align: center;
+        margin-top: 20px;
+        height: 20px
+}
+.register h5 a:hover{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+    height: 20px
+}
+.register .profile{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.register .profile label{
+    font-size: 16px;
+    text-align: center;
+}
+.register .interests label{
+    font-size: 16px;
+    text-align: center;
+}
+
+.controls{
+    width: 100%;
+    /* background-color: yellow; */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(44 30 224);
+    font-size: 14px;
+}
 .fa-truck:hover{
     transform: rotate(-90deg);
     transition: 300ms;
@@ -187,10 +239,6 @@ main section article i{
     transition: 0.5s;
 }
 
-.archivus{
-    margin: 40px;
-    background-color: tomato;
-}
 
 main section h3{
     margin: 20px 0px;
@@ -215,6 +263,10 @@ footer{
     padding: 10px;
     text-align: center;
 
+}
+footer .pie{
+   margin: auto;
+text-align: center;
 }
 
 footer .pie i{
